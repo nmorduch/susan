@@ -2,7 +2,7 @@ name: "Susan Morduch, Phd."
 markdown: redcarpet
 imageurl: /static/media
 permalink: /:title/
-baseurl: "/susan/"
+baseurl: "/susan"
 
 prose:
   siteurl: 'http://nmorduch.me/susan'
@@ -10,9 +10,12 @@ prose:
   ignore:
     - /CNAME
     - /.gitignore
+    - /Gemfile
+    - /Gemfile.lock
     - /README.md
     - /robots.txt
     - /static
+    - /_layouts
     - /_includes
     - /_data
     - /_config.yml
@@ -26,5 +29,5 @@ prose:
         field:
           element: "text"
           label: "Header Image"
-          help: "Name of file, must be uploaded media"
+          help: "Name of file (e.g. image.jpg), must be uploaded media"
           type: "text"

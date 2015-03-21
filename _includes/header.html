@@ -1,3 +1,7 @@
-<header>
-	<h1>{{ site.name }}</h1>
+<header class="margin-trailer-dbl">
+	<h1><a href="{{ site.baseurl }}">{{ site.name }}</h1></a>
+
+	{% for post in site.posts %}
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	{% endfor %}
 </header>
