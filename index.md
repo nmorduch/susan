@@ -5,4 +5,4 @@ published: true
 
 homepage content
 
-![Susan Morduch, Phd.](/media/susan_outside.jpg)
+![Susan Morduch, Phd.](/susan/media/susan_outside.jpg)
