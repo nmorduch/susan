@@ -6,7 +6,7 @@ baseurl: "/susan"
 
 prose:
   siteurl: 'http://nmorduch.me/susan'
-  media: 'media'
+  media: '/susan/media'
   ignore:
     - /CNAME
     - /.gitignore
