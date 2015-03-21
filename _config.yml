@@ -1,0 +1,30 @@
+name: "Susan Morduch, Phd."
+markdown: redcarpet
+imageurl: /static/media
+permalink: /:title/
+baseurl: "/susan/"
+
+prose:
+  siteurl: 'http://nmorduch.me/susan'
+  media: 'static/media'
+  ignore:
+    - /CNAME
+    - /.gitignore
+    - /README.md
+    - /robots.txt
+    - /static
+    - /_includes
+    - /_data
+    - /_config.yml
+  metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "header_image"
+        field:
+          element: "text"
+          label: "Header Image"
+          help: "Name of file, must be uploaded media"
+          type: "text"

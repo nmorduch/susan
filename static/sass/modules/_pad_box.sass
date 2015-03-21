@@ -1,0 +1,16 @@
+.pad-box
+	padding: $line-height-computed $grid-gutter-width
+
+.pad-box-half
+	padding: #{$line-height-computed/2} #{$grid-gutter-width/2}
+
+.pad-box-quarter
+	padding: #{$line-height-computed/4} #{$grid-gutter-width/4}
+
+.pad-box-text
+	padding: #{$line-height-computed * 0.125} #{$line-height-computed * 0.25}
+	margin-right: .25em
+
+.pad-box-text-squared
+	@extend .pad-box-text
+	border-radius: 0

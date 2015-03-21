@@ -1,0 +1,96 @@
+@import compass/utilities/color/contrast
+
+// Utility Color Classes
+@each $color-name, $color-hex in $colors-map
+	$color-contrast: contrast-color($color-hex, $black, $white)
+	@if	$color-name in ('deep-green', 'light-blue', 'mid-light-grey', 'twitter',)
+		$color-contrast: $white
+
+	$color-alt: darken($color-hex, 10%)
+	@if lightness($color-alt) <= 10
+		$color-alt: lighten($color-hex, 10%)
+
+
+	// Background Colors & Button Colors
+	.background-#{$color-name}, .btn-#{$color-name},
+	.label-#{$color-name}
+		background-color: $color-hex
+		color: $color-contrast
+
+	// Button (and label link) Event Colors:
+	.btn-#{$color-name}:hover, .btn-#{$color-name}:active,
+	a:hover > .label-#{$color-name}, a:active > .label-#{$color-name}
+		background-color: $color-alt
+		color: $color-contrast
+
+	// For coloring text, e.g., .color-dark-grey, .color-facebook, &c.
+	.color-#{$color-name}
+		color: $color-hex
+
+	// For colored links to have a similar color on hover
+	a.color-#{$color-name}
+		&:hover, &:active
+			color: $color-alt
+
+	// For color just on hover
+	.color-#{$color-name}-hover,
+	a.color-#{$color-name}-hover
+		&:hover, &:active
+			color: $color-hex
+
+
+
+// Nav Menu (i.e., Sidebar Nav)
+
+.nav-menu
+	background: #535354
+	// background: #535354 image-url('nav-menu-bg.jpg') top right no-repeat
+	// background-size: cover
+
+.menu-section--search-input
+	background: transparent
+	color: $white
+	+placeholder
+		color: $mid-grey
+		opacity: 1
+
+.nav-menu .nav a
+	color: $mid-light-grey
+
+.nav-menu .nav a:hover
+	background: rgba(0,0,0,.2)
+
+.menu-section--sections .nav a
+	color: $white
+
+.navbar-default-link
+	color: $navbar-default-link-color
+	&:hover
+		text-decoration: none
+		color: $navbar-default-link-hover-color
+	&:active
+		color: $navbar-default-link-active-color
+
+.navbar-default
+
+	.navbar-hilite
+		background: rgba(0, 0, 0, .15)
+	.navbar-link
+		@extend .navbar-default-link
+
+.navbar-masthead
+	.navbar-nav > li > a, .navbar-nav > li > button
+		color: $dark-grey
+		&:hover
+			color: $deep-blue
+			background: transparent
+
+.player-nav
+	> li > a
+		color: $dark-grey
+
+// Panes
+
+.pane-grey
+	background-color: $light-grey
+

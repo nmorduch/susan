@@ -1,0 +1,22 @@
+.list-inline
+	@extend .list-unstyled
+	> li
+		display: inline-block
+
+.list-comma-item
+	&::after
+		content: ", "
+	&:last-child::after
+		content: ""
+
+.list-comma
+	@extend .list-unstyled
+	display: inline
+	> li
+		display: inline
+		@extend .list-comma-item
+
+.list-ruled > li
+	padding-bottom: 2 * $line-height-computed
+	border-bottom: 1px solid $mid-light-grey
+	margin-bottom: 2 * $line-height-computed

@@ -1,0 +1,101 @@
+// import defaults
+@import bootstrap/variables
+
+// Non-Bootstrap
+$light-blue: #80c5d6
+$deep-blue: #5da8ba
+$light-green: #d8d282
+$deep-green: #c2bc2f
+$light-red: #c59496
+$deep-red: #8b003b
+$black: #272727
+$white: #FFF
+$dark-grey: #3f3f3f
+$mid-grey: #a5a5a5
+$mid-light-grey: #c5c5cc
+$light-grey: #e2e2e2
+$bright-red: #e42129 // Use sparingly.
+$overlay-deep-blue: rgba($deep-blue,.9)
+
+$color-facebook: #4565a1
+$color-twitter: #61a1d2
+$color-soundcloud: #e08d2a
+
+$side-nav-width: 240px
+$side-nav-transition-duration: 250ms
+$side-nav-transition-timing-function: ease-out
+
+$source-sans: 'Source Sans Pro', 'Gill Sans', Helvetica, Arial, sans-serif
+$source-sans-light-weight: 300
+$source-sans-book-weight: 400
+$source-sans-bold-weight: 700
+
+$gotham: 'Gotham SSm A', 'Gotham SSm B', "Gill Sans", Helvetica, Arial, sans-serif
+$gotham-light-weight: 300
+$gotham-book-weight: 400
+$gotham-bold-weight: 700
+
+$wdet-grid-gutter-width: 60px
+
+// Bootstrap
+
+$brand-primary: $deep-blue
+$text-color: $black
+$headings-color: $dark-grey
+$link-color: $brand-primary
+$link-hover-color: darken($link-color,10%)
+
+// $font-family-base: $source-sans
+
+$font-size-base: 16px
+$font-size-extra-small: ceil($font-size-base * .75) // 12px. Not a Bootstrap variable.
+$font-size-small: ceil($font-size-base * .875) // 14px
+$font-size-large: ceil($font-size-base * 1.25) // 20px
+
+$line-height-base: 1.5 // 24px
+
+// $headings-font-family: $gotham
+$headings-font-weight: $gotham-bold-weight
+$font-size-h1: 42px
+$font-size-h2: 30px
+$font-size-h3: 23px
+$font-size-h4: 18px
+$font-size-h5: 18px
+$font-size-h6: 18px
+
+$border-radius-base: 2px
+
+$grid-gutter-width: 30px
+
+$navbar-height: 45px
+$navbar-default-bg: $light-blue
+$navbar-default-color: #FFF
+$navbar-default-link-color: #FFF
+
+$container-lg: 1170px + $grid-gutter-width // This is huge. Kill it?
+$container-md: 990px + $grid-gutter-width
+$container-sm: 830px + $grid-gutter-width
+
+$screen-lg-min: $container-lg
+$screen-md-max: $screen-lg-min - 1px
+$screen-md-min: $container-md
+$screen-sm-max: $screen-md-min - 1px
+$screen-sm-min: $container-sm + $grid-gutter-width
+$screen-xs-max: $screen-sm-min - 1px
+$screen-xs-min: 481px
+$screen-xxs-max: $screen-xs-min - 1px
+
+$blockquote-small-color: $mid-grey
+$blockquote-font-size: 24px
+$blockquote-border-color: lighten($light-blue,20%)
+
+
+// Calculated
+// These variables will always be calculated off of variables above for
+// use througout the code. Generally, do not modify them directly:
+
+// Put all the colors in a map so we can iterate over them:
+$colors-social: ('facebook': $color-facebook, 'twitter': $color-twitter, 'soundcloud': $color-soundcloud)
+$colors-brand: ('light-blue': $light-blue, 'deep-blue': $deep-blue, 'light-green': $light-green, 'deep-green': $deep-green, 'light-red': $light-red, 'deep-red': $deep-red, 'black': $black, 'light-grey': $light-grey, 'mid-light-grey': $mid-light-grey, 'mid-grey': $mid-grey, 'dark-grey': $dark-grey)
+$colors-extra: ('bright-red': $bright-red, 'white': white, 'overlay-deep-blue': $overlay-deep-blue)
+$colors-map: map-merge(map-merge($colors-social, $colors-brand), $colors-extra)

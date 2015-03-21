@@ -1,0 +1,17 @@
+// no change unless you hover
+.a-secret
+	color: inherit
+
+// no color change ever
+.a-no-color
+	@extend .a-secret
+	&:hover, &:active
+		color: inherit
+
+// no text decoration on hover
+.a-no-decorate:hover
+	text-decoration: none
+
+// block
+.a-block
+	display: block
