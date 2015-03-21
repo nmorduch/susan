@@ -1,0 +1,15 @@
+<footer class="margin-leader-quad pad-box">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				{% capture footer %}{% include footer.md %}{% endcapture %}
+				{{ footer | markdownify }}
+			</div>
+			<div class="col-sm-6">
+				<ul class="list-unstyled">
+					{% include html/nav.html %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>

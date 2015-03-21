@@ -1,12 +1,12 @@
-name: "Susan Morduch, Phd."
+name: "Susan Morduch, PhD"
 markdown: redcarpet
-imageurl: /static/media
+imageurl: /media
 permalink: /:title/
-baseurl: "/susan"
+baseurl: ""
 
 prose:
-  siteurl: 'http://nmorduch.me/susan'
-  media: '/susan/media'
+  siteurl: 'http://drsusanmorduch.com'
+  media: 'media'
   ignore:
     - /CNAME
     - /.gitignore
@@ -16,7 +16,7 @@ prose:
     - /robots.txt
     - /static
     - /_layouts
-    - /_includes
+    - /_includes/html
     - /_data
     - /_config.yml
   metadata:

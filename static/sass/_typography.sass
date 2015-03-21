@@ -1,20 +1,20 @@
-=font($family,$weight)
-	@if $family == accent
-		font-family: $gotham
-		@if $weight == light
-			font-weight: $gotham-light-weight
-		@else if $weight == medium
-			font-weight: $gotham-book-weight
-		@else if $weight == heavy
-			font-weight: $gotham-bold-weight
-	@else if $family == body
-		font-family: $source-sans
-		@if $weight == light
-			font-weight: $source-sans-light-weight
-		@else if $weight == medium
-			font-weight: $source-sans-book-weight
-		@else if $weight == heavy
-			font-weight: $source-sans-bold-weight
+// =font($family,$weight)
+// 	@if $family == accent
+// 		font-family: $gotham
+// 		@if $weight == light
+// 			font-weight: $gotham-light-weight
+// 		@else if $weight == medium
+// 			font-weight: $gotham-book-weight
+// 		@else if $weight == heavy
+// 			font-weight: $gotham-bold-weight
+// 	@else if $family == body
+// 		font-family: $source-sans
+// 		@if $weight == light
+// 			font-weight: $source-sans-light-weight
+// 		@else if $weight == medium
+// 			font-weight: $source-sans-book-weight
+// 		@else if $weight == heavy
+// 			font-weight: $source-sans-bold-weight
 
 .text-large
 	font-size: $font-size-large
@@ -22,55 +22,15 @@
 .text-uppercase
 	letter-spacing: .04em
 
-.text-weight-normal
-	font-weight: $source-sans-book-weight
-
-.font-accent-medium
-	+font(accent,medium)
-
-.font-accent-heavy
-	+font(accent,heavy)
-
 .display-inline-block
 	display: inline-block
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
 	> a
+		@extend .a-secret
 		@extend .a-no-decorate
 	> small
 		font-size: 80%
 
-h1, .h1, h2, .h2, h4, .h4, h5, .h5
-	> small
-		+font(accent,medium)
-
-h3, .h3, h6, .h6
-	// Unbold these particular headings:
-	+font(accent,medium)
-	> small
-		+font(accent,light)
-
-.btn
-	+font(accent,medium)
-	@extend .text-uppercase
-
-.btn-title-case
-	text-transform: capitalize
-	letter-spacing: 0
-
-.menu-button
-	+font(accent,medium)
-	@extend .text-uppercase
-
-.nav-menu .nav a, .menu-section--search
-	+font(accent,light)
-	@extend .text-uppercase
-	font-size: $font-size-small
-
-.menu-section--sections .nav a
-	+font(accent,medium)
-
-.navbar-default
-	+font(accent,light)
-	font-size: $font-size-small
-
+.header-title
+	font-size: 3*$line-height-computed
