@@ -1,8 +1,8 @@
-name: "Susan Morduch, PhD"
+name: 'Susan Morduch, PhD'
 markdown: redcarpet
 imageurl: /media
 permalink: /:title/
-baseurl: ""
+baseurl: ''
 
 prose:
   siteurl: 'http://drsusanmorduch.com'
@@ -20,14 +20,14 @@ prose:
     - /_data
     - /_config.yml
   metadata:
-    "":
-      - name: "layout"
+    _posts:
+      - name: 'layout'
         field:
-          element: "hidden"
-          value: "default"
-      - name: "header_image"
-        field:
-          element: "text"
-          label: "Header Image"
-          help: "Name of file (e.g. image.jpg), must be uploaded media"
-          type: "text"
+          element: 'hidden'
+          value: 'default'
+      # - name: 'header_image'
+      #   field:
+      #     element: 'text'
+      #     label: 'Header Image'
+      #     help: 'Name of file (e.g. image.jpg), must be uploaded media'
+      #     type: 'text'
