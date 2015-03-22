@@ -7,7 +7,10 @@
 	<input class="form-control margin-trailer-tiny" type="text" name="name" placeholder="Name">
 	<input class="form-control margin-trailer-tiny" type="email" name="_replyto" placeholder="Email Address">
 	<textarea class="form-control margin-trailer-tiny" name="body" placeholder="Message"></textarea>
-	<input class="btn btn-primary" type="submit" value="Send">
-	<input type="hidden" name="_subject" value="Contact via drsusanmorduch.com" />
+
 	<input type="text" name="_gotcha" style="display:none" />
+	<input type="hidden" name="_subject" value="Contact via drsusanmorduch.com" />
+	<input type="hidden" name="_next" value="//drsusanmorduch.com/email-success.html" />
+
+	<input class="btn btn-primary" type="submit" value="Send">
 </form> 
