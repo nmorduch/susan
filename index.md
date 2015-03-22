@@ -10,8 +10,8 @@ Sometimes life becomes difficult, and usual ways of coping don’t work well. It
 You and I can join together in psychotherapy to:
 
 - Help you learn how to get over hurdles and roadblocks in your life 
-- Better understand your role as an actor in your life and those around you
-- Cope more easily with stresses of family, parenting, caregiving, career,and/or school 
+- Better understand your role as an actor in your life and your impact on those around you
+- Cope more easily with stresses of family, parenting, caregiving, career, and/or school 
 - Improve your relationship with your child, parent or partner
 - Develop your strengths to overcome your weaknesses
 - Learn coping skills that will be of life-long benefit
