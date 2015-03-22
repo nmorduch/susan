@@ -31,9 +31,12 @@ prose:
             value: 'default'
           - name: 'Two Column (sidebar)'
             value: 'sidebar'
+      - name: 'title'
+        field:
+          element: 'text'
+          label: 'Page Title'
       # - name: 'header_image'
       #   field:
       #     element: 'text'
       #     label: 'Header Image'
       #     help: 'Name of file (e.g. image.jpg), must be uploaded media'
-      #     type: 'text'
