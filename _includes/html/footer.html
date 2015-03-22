@@ -1,11 +1,22 @@
-<footer class="margin-leader-quad pad-box">
+<footer class="margin-leader-quad pad-box-full-width">
 	<div class="container">
+		{% capture footer_top %}{% include footer_top.md %}{% endcapture %}
+		{{ footer_top | markdownify }}
 		<div class="row">
-			<div class="col-sm-6">
-				{% capture footer %}{% include footer.md %}{% endcapture %}
-				{{ footer | markdownify }}
+			<div class="col-sm-8 col-lg-10 margin-trailer-dbl margin-trailer-0-sm">
+				<div class="row">
+					<div class="col-lg-6 margin-trailer-dbl margin-trailer-0-lg">
+						{% capture footer_1 %}{% include footer_1.md %}{% endcapture %}
+						{{ footer_1 | markdownify }}
+					</div>
+					<div class="col-lg-6">
+						{% capture footer_2 %}{% include footer_2.md %}{% endcapture %}
+						{{ footer_2 | markdownify }}
+					</div>
+				</div>			
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-4 col-lg-2">
+				<h5 class="margin-leader-0">Site Navigation</h5>
 				<ul class="list-unstyled">
 					{% include html/nav.html %}
 				</ul>

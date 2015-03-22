@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fees and Insurance
+title: Fees & Insurance
 ---
 
 I currently accept Cigna and Blue Cross Blue Shield insurance. 

@@ -4,14 +4,19 @@
 	<div class="header-image backstretched" data-backstretch-image="{{ site.baseurl }}{{ site.imageurl }}/circuit-board.jpg">
 	-->
 		<div class="container relative height-100">
-			<a href="{{ site.baseurl }}/" class="header-title">
-				{% include html/name_dark.html %}
-			</a>
+			<div class="header-title">
+				<a href="{{ site.baseurl }}/">
+					{% include html/name_dark.html %}
+				</a>
+				<h1 class="sr-only sr-only-focusable">{{ site.name }}</h1>
+				<h4 class="margin-left-half margin-leader-0">Licensed Psychologist</h4>
+			</div>
+				
 		</div>
 	</div>
 
 	<nav class="container header-nav">
-		<ul class="list-inline">
+		<ul class="nav nav-pills">
 			{% include html/nav.html %}
 		</ul>
 	</nav>

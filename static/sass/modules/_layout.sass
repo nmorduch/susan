@@ -16,6 +16,12 @@
 
 $margin-map: ('0': 0, 'tiny': 0.2, 'half': 0.5, 'dbl': 2, 'quad': 4)
 
+.margin-leader
+	+margin('top')
+
+.margin-trailer
+	+margin('bottom')
+
 @each $margin-name, $margin-size in $margin-map
 	.margin-leader-#{$margin-name}
 		+margin('top',$margin-size)
@@ -25,11 +31,14 @@ $margin-map: ('0': 0, 'tiny': 0.2, 'half': 0.5, 'dbl': 2, 'quad': 4)
 .margin-0
 	margin: 0
 
-.margin-leader
-	+margin('top')
+@each $breakpoint-name, $breakpoint-size in $breakpoint-map // in variables Computed
+	@media (min-width: $breakpoint-size)
+		.margin-leader-0-#{$breakpoint-name}
+			+margin('top',0)
+		.margin-trailer-0-#{$breakpoint-name}
+			+margin('bottom',0)
 
-.margin-trailer
-	+margin('bottom')
+
 
 .margin-left-half
 	+margin('left',0.5)

@@ -7,10 +7,18 @@
 .nav-horizontal
 	> li
 		float: left
-		margin-right: 8px
+		margin-right: .4 * $line-height-computed
 		&:last-child
 			margin-right: 0
 	> li > a, & > li > button
 		padding: 0
 		&:hover
 			background: transparent
+
+.nav-pills
+	> li
+		margin-right: .1 * $line-height-computed
+		&:last-child
+			margin-right: 0	
+	> li > a, & > li > button
+		padding: #{.1 * $line-height-computed} #{.4 * $line-height-computed}
