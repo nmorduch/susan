@@ -7,3 +7,6 @@
 		@content
 	&:-ms-input-placeholder
 		@content
+
+@function f-adjust-lightness($color,$lightness)
+	@return hsl(hue($color),saturation($color),$lightness)

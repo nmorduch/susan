@@ -1,13 +1,15 @@
 .header-title
-	color: white
+	color: f-adjust-lightness($brand-primary,90)
 	.name
-		fill: white
+		fill: f-adjust-lightness($brand-primary,90)
+		&:hover
+			fill: white
 
 footer
-	background-color: #eee
+	background-color: #edeeed
 
 
 .form-control:focus
 	box-shadow: none
-	background-color: hsl(hue($brand-primary),saturation($brand-primary),95)
-	// background-color: lighten($brand-primary,35%)
+	background-color: f-adjust-lightness($brand-primary,97)
+
