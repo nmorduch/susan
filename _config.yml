@@ -24,6 +24,7 @@ prose:
       - name: 'layout'
         field:
           element: 'select'
+          label: 'Page Layout'
           value: 'default'
           help: 'Sidebar layout requires a sibebar file in the folder _includes. File name must be page-url_sidebar.md'
           options:
