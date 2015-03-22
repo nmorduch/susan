@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+<div class="row">
+	<div class="col-sm-8">
+		{{ content }}
+	</div>
+	<div class="col-sm-4">
+		{% capture sidebar %}{% if page.title %}{% include {{ page.url }}_sidebar.md %}{% else %}{% include home_sidebar.md %}{% endif %}{% endcapture %}
+		{{ sidebar | markdownify }}
+	</div>
+</div>
