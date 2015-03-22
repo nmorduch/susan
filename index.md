@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: sidebar
 published: true
 ---
 

@@ -1,7 +1,7 @@
 name: 'Susan Morduch, PhD'
 markdown: redcarpet
 imageurl: /media
-permalink: /:title/
+permalink: /:title
 baseurl: ''
 
 prose:
@@ -23,8 +23,14 @@ prose:
     _posts:
       - name: 'layout'
         field:
-          element: 'hidden'
+          element: 'select'
           value: 'default'
+          help: 'Sidebar layout requires a sibebar file in the folder _includes. File name must be page-url_sidebar.md'
+          options:
+          - name: 'Single Column'
+            value: 'default'
+          - name: 'Two Column (sidebar)'
+            value: 'sidebar'
       # - name: 'header_image'
       #   field:
       #     element: 'text'
