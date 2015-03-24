@@ -19,7 +19,7 @@ If you are contemplating starting therapy for the first time, the unknown can fe
 
 [Acceptance and Commitment Therapy](https://www.psychologytoday.com/blog/two-takes-depression/201102/acceptance-and-commitment-therapy) *in Psychology Today*
 
-[Mindfulness](http://www.getselfhelp.co.uk/docs/Mindfulness.pdf) *PDF from getselfhelp.co.uk - first page has a nice introduction*
+[Mindfulness](http://www.getselfhelp.co.uk/docs/Mindfulness.pdf) *PDF, from getselfhelp.co.uk - first page has a nice introduction*
 
 ### General Reading
 
