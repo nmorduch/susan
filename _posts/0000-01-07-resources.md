@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Resources
+published: true
 ---
 
 ### New to Psychotherapy
@@ -10,6 +11,11 @@ If you are contemplating starting therapy for the first time, the unknown can fe
 [Understanding Psychology](http://www.apa.org/helpcenter/understanding-psychotherapy.aspx) *from the American Psychological Association*
 
 [What to Expect in Psychotherapy](https://www.psychologytoday.com/blog/two-takes-depression/201301/what-expect-in-psychotherapy) *in Psychology Today*
+
+
+### Types of Psychotherapy
+
+[Popular Types of Psychotherapy](https://www.nami.org/Learn-More/Treatment/Psychotherapy) *from NAMI, The National Alliance on Mental Illness*
 
 ### General Reading
 
