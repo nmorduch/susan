@@ -17,6 +17,10 @@ If you are contemplating starting therapy for the first time, the unknown can fe
 
 [Popular Types of Psychotherapy](https://www.nami.org/Learn-More/Treatment/Psychotherapy) *from NAMI, The National Alliance on Mental Illness*
 
+[Acceptance and Commitment Therapy](https://www.psychologytoday.com/blog/two-takes-depression/201102/acceptance-and-commitment-therapy) *in Psychology Today*
+
+[Mindfulness](http://www.getselfhelp.co.uk/docs/Mindfulness.pdf)
+
 ### General Reading
 
 [50 Common Cognitive Distortions](https://www.psychologytoday.com/blog/in-practice/201301/50-common-cognitive-distortions) *by Alice Boyes, PhD*
