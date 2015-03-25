@@ -21,5 +21,3 @@ You and I can join together in psychotherapy to:
 - Learn coping skills that will be of life-long benefit
 - Gain ways of connecting with your child to better his/her development
 
-{% include html/name_short.html class="name--small pull-right" %}
-
