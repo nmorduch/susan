@@ -3,7 +3,7 @@
 
 ##### Send me an email:
 
-<form method="POST" action="//formspree.io/susan.morduch@gmail.com">
+<form method="POST" action="//formspree.io/susan@drsusanmorduch.com">
 	<input class="form-control margin-trailer-tiny" type="text" name="name" placeholder="Name">
 	<input class="form-control margin-trailer-tiny" type="email" name="_replyto" placeholder="Email Address">
 	<textarea class="form-control margin-trailer-tiny" name="body" placeholder="Message"></textarea>
