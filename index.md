@@ -8,7 +8,7 @@ Welcome! My goal for this website is to help you get a better sense of me and my
    
      
      
-Sometimes life becomes difficult, and usual ways of coping don’t work well. It can be hard in the midst of difficulty to find strengths and strategies to cope better and make life more manageable.
+Sometimes life becomes difficult, and usual ways of coping don’t work well. It can be hard, in the midst of difficulty, to find strengths and strategies to figure things out and make life more manageable.
 
 You and I can join together in psychotherapy to:
 
