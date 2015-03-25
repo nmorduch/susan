@@ -6,7 +6,7 @@ published: true
 Welcome! My goal for this website is to help you get a better sense of me and my psychotherapy practice. I work with both adults and children.  If after reading my information, you are interested in exploring how you might work with me, please call, so we can discuss your needs and determine if we might work well together.
   
    
-     
+---     
      
 Sometimes life becomes difficult, and usual ways of coping don’t work well. It can be hard, in the midst of difficulty, to find strengths and strategies to figure things out and make life more manageable.
 
