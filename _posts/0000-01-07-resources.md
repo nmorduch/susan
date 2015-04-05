@@ -13,7 +13,7 @@ If you are contemplating starting therapy for the first time, the unknown can fe
 [What to Expect in Psychotherapy](https://www.psychologytoday.com/blog/two-takes-depression/201301/what-expect-in-psychotherapy) *in Psychology Today*
 
 
-### Types of Psychotherapy
+<h3 id=“typesOfPsychotheraphy”>Types of Psychotherapy</h3>
 
 [Popular Types of Psychotherapy](https://www.nami.org/Learn-More/Treatment/Psychotherapy) *from NAMI, The National Alliance on Mental Illness*
 
