@@ -9,10 +9,27 @@
 		<link rel='shortcut icon' type='image/x-icon' href='{{ site.baseurl }}/favicon.ico' />
 		<script src="//use.edgefonts.net/lato:n4,i4,n7,i7.js"></script>
 	</head>
-	{% include html/header.html %}
-	<div class="container">
-		<h1>{{ page.title }}</h1>
-		{{ content }}
+	<div class="page">
+		<header class="container">
+			<a href="{{ site.baseurl }}/">
+				{% include html/name_dark.html %}
+			</a>
+			<h1 class="sr-only">{{ site.name }}</h1>
+			<h4 class="margin-left-half margin-leader-0">Licensed Psychologist</h4>
+		</header>
+		<div class="bg-white clearfix pad-bottom-quad">
+			<nav class="container header-nav">
+				<ul class="nav nav-pills">
+					{% include html/nav.html %}
+				</ul>
+			</nav>
+
+			<div class="container">
+				<h1>{{ page.title }}</h1>
+				{{ content }}
+			</div>		
+		</div>
+		{% include html/footer.html %}
 	</div>
-	{% include html/footer.html %}
+	<div class="header-image"></div>
 </html>
