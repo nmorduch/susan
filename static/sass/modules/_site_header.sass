@@ -6,7 +6,6 @@
 	height: 100%
 	padding-top: 20%
 	background: url("/media/triangles.svg") repeat scroll center / 500px $brand-primary
-	-webkit-overflow-scrolling: touch
 	transform: translateZ(-0.2px) scale(1.2)
 	z-index: -1
 
@@ -26,7 +25,8 @@ body, body *
 	transform-style: preserve-3d
 
 body
-	overflow-y: auto
+	overflow-y: scroll
+	-webkit-overflow-scrolling: touch
 
 .page
 	position: relative
