@@ -6,7 +6,7 @@ published: true
 
 ### New to Psychotherapy
 
-If you are contemplating starting therapy for the first time, the unknown can feel overwhelming.  These two articles address different aspects of therapy and cover most questions you might have.  Hopefully, they will help you feel more comfortable with the process.
+If you are contemplating starting therapy for the first time, the unknown can feel overwhelming.  These two articles address different aspects of therapy and cover many questions you might have.  Hopefully, they will help you feel more comfortable with the process. If you still have questions, I will be happy to answer them.
 
 [Understanding Psychology](http://www.apa.org/helpcenter/understanding-psychotherapy.aspx) *from the American Psychological Association*
 
