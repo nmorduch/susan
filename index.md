@@ -3,7 +3,7 @@ layout: sidebar
 published: true
 ---
 
-Welcome! My goal for this website is to help you get a better sense of me and my psychotherapy practice. I work with both adults and children.  If after reading my information, you are interested in exploring how you might work with me, please call, so we can discuss your needs and determine if we might work well together.
+Welcome! My goal for this website is to help you get a better sense of me and my psychotherapy practice. I work with both adults and children.  If after reading my information, you are interested in exploring how you might be able to work with me, please call, so we can discuss your needs and determine if we might work well together.
 
 <div class="col-xs-12 margin-trailer-dbl">
 	{% include html/name_short.html class="name--small pull-right" %}
@@ -20,4 +20,3 @@ You and I can join together in psychotherapy to:
 - Develop your strengths to overcome your weaknesses
 - Learn coping skills that will be of life-long benefit
 - Gain ways of connecting with your child to better his/her development
-
