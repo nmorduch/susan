@@ -12,4 +12,4 @@ I prefer to keep sessions, particularly with teens, confidential to help build t
 
 ### Adults
 
-I mostly use cognitive behavioral therapy (CBT), with aspects of dialectical behavior therapy (DBT), acceptance and commitment therapy (ACT) and mindfulness in our work together ([see descriptions here](/resources/#typesOfPsychotherapy)). I will work with you collaboratively to better understand the relationship between your thoughts and behaviors, and how this relates to the way you feel. This may require homework or practice on your part, to make sure we get the most benefit from our time together.
+I mostly use cognitive behavioral therapy (CBT), with aspects of acceptance and commitment therapy (ACT) and mindfulness in our work together ([see descriptions here](/resources/#typesOfPsychotherapy)). I will work with you collaboratively to better understand the relationship between your thoughts and behaviors, and how this relates to the way you feel. This may require homework or practice on your part, to make sure we get the most benefit from our time together.
