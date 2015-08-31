@@ -1,8 +1,9 @@
 ---
-layout: sidebar
+layout: default
 title: What to Expect
 published: true
 ---
+
 
 ### Children and Adolescents
 
