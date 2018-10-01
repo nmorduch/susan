@@ -10,30 +10,26 @@
 		<script src="//use.edgefonts.net/lato:n4,i4,n7,i7.js"></script>
 	</head>
 	<body>
-		<div class="page">
-			<header>
-				<div class="container">
-					<a href="{{ site.baseurl }}/">
-						{% include html/name_dark.html %}
-					</a>
-					<h1 class="sr-only">{{ site.name }}</h1>
-					<h4 class="margin-left-half margin-leader-0">Licensed Psychologist</h4>
-				</div>
-			</header>
-			<div class="bg-white clearfix pad-bottom-quad">
-				<nav class="container header-nav">
-					<ul class="nav nav-pills">
-						{% include html/nav.html %}
-					</ul>
-				</nav>
-
-				<div class="container">
-					<h1>{{ page.title }}</h1>
-					{{ content }}
-				</div>		
+		<header>
+			<div class="container">
+				<a href="{{ site.baseurl }}/">
+					{% include html/name_dark.html %}
+				</a>
+				<h4 class="margin-left-half margin-leader-0">Licensed Psychologist</h4>
 			</div>
-			{% include html/footer.html %}
+		</header>
+		<div class="bg-white clearfix pad-bottom-quad">
+			<nav class="container header-nav">
+				<ul class="nav nav-pills">
+					{% include html/nav.html %}
+				</ul>
+			</nav>
+
+			<div class="container">
+				<h1>{{ page.title }}</h1>
+				{{ content }}
+			</div>
 		</div>
-		<div class="header-image"></div>
+		{% include html/footer.html %}
 	</body>
 </html>

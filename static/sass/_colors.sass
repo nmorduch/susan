@@ -1,17 +1,19 @@
 header
-	color: f-adjust-lightness($brand-primary,90)
+	color: white
 	.name
-		fill: f-adjust-lightness($brand-primary,90)
+		fill: white
 		&:hover
-			fill: white
+			fill: f-adjust-lightness($brand-secondary,90)
 
-footer
-	background-color: $footer-color
+footer > .container
+	background-color: white
+	box-shadow: 0 #{-0.5*$line-height-computed - 2} 0 #{-0.5*$line-height-computed} $brand-secondary
+
 
 
 .form-control:focus
 	box-shadow: none
-	background-color: f-adjust-lightness($brand-primary,97)
+	background-color: f-adjust-lightness($brand-primary,98)
 
 .bg-white
 	background-color: white
