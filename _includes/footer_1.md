@@ -1,6 +1,6 @@
 [susan@drsusanmorduch.com](mailto:susan@drsusanmorduch.com)  
 [(914) 488-4938](tel:9144884938)  
-[https://drsusanmorduch.clientsecure.me](https://drsusanmorduch.clientsecure.me "Client Portal access")
+[My Client Portal](https://drsusanmorduch.clientsecure.me "Client Portal access")
 
 ##### Send me an email:
 
