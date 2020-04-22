@@ -23,6 +23,3 @@ If you are contemplating starting therapy for the first time, the unknown can fe
 
 ### General Reading
 
-[50 Common Cognitive Distortions](https://www.psychologytoday.com/blog/in-practice/201301/50-common-cognitive-distortions) *by Alice Boyes, PhD*
-
-[50 Strategies to Beat Anxiety](https://www.psychologytoday.com/blog/in-practice/201503/50-strategies-beat-anxiety) *by Alice Boyes, PhD*
