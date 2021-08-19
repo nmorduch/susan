@@ -1,8 +1,8 @@
-[drsusanmorduch@gmail.com](mailto:drsusanmorduch@gmail.com)  
+[susan@drsusanmorduch.com](mailto:susan@drsusanmorduch.com)  
 [(914) 488-4938](tel:9144884938)  
 [Client Portal Access](https://drsusanmorduch.clientsecure.me "Client Portal access")
 
-##### Send me an email(currently not working - see email above):
+##### Send me an email:
 
 <form method="POST" action="//formspree.io/susan@drsusanmorduch.com">
 	<input class="form-control margin-trailer-tiny" type="text" name="name" placeholder="Name">
