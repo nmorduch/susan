@@ -1,3 +1,3 @@
-![]({{site.baseurl}}media/Susan Office.heic)## A New Post
+![]({{site.baseurl}}media/Susan Office.heic)
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+
