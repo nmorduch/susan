@@ -1,1 +1,2 @@
-![Susan Morduch PhD](/media/susan_outside.jpg)
+![]({{site.baseurl}}media/Susan Office.heic)![Susan Office.heic]({{site.baseurl}}/media/Susan Office.heic)
+
