@@ -1,2 +1,2 @@
+![home page.jpeg]({{site.baseurl}}/media/home page.jpeg)
 
-![Susan Morduch PhD](/media/Couch office jpeg.jpeg)
